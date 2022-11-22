@@ -1,0 +1,98 @@
+body {
+  background-color: lightgrey;
+}
+
+#title {
+  text-align: center;
+  font-family: monospace;
+  color: brown;
+  margin-top: 20px;
+  font-size: 3rem;
+}
+
+.content {
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 50%;
+  display: table;
+  justify-content: center;
+  margin: auto;
+  background-color: beige;
+}
+
+#add {
+  width: auto;
+  float: left;
+  width: 70%;
+  background-color: azure;
+  opacity: 89%;
+  font-family: monospace;
+  padding: none;
+  height: 35px;
+  font-size: 1rem;
+}
+#submit-task {
+  display: inline-flex;
+  float: right;
+  width: 28.5%;
+  justify-content: center;
+  font-family: monospace;
+  background-color: grey;
+  opacity: 70%;
+  color: azure;
+  font-weight: bold;
+  height: 41px;
+  vertical-align: center;
+  line-height: 35px;
+  font-size: 1.5rem;
+}
+
+.tasks {
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 50%;
+  display: table;
+  justify-content: center;
+  margin: auto;
+  background-color: beige;
+}
+
+.task-in-list {
+  font-family: monospace;
+  font-size: 1.3rem;
+  color: brown;
+  margin-left: 5px;
+  float: left;
+  background: transparent;
+  border: none;
+  margin-top: 10px;
+  width: 100%;
+}
+.task-remove-button {
+  float: right;
+  margin-top: 25px;
+  margin-right: 10px;
+  font-family: monospace;
+  background-color:crimson;
+  color: white;
+
+}
+.task-edit-button {
+  float: right;
+  margin-top: 25px;
+  background-color: lightblue;
+  font-family: monospace;
+  color: black;
+
+}
+
+.new-task-container {
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 50%;
+  display: table;
+  justify-content: center;
+  margin: auto;
+  background-color: beige;
+  margin-bottom: 5px;
+}
